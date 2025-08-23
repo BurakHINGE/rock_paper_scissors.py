@@ -1,15 +1,21 @@
 # 🎮 Taş Kağıt Makas | Rock Paper Scissors
 
+---
+
+| Dil (Language) | Bağlantı (Link) |
+|----------------|-----------------|
+| 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
+| 🇬🇧 English (Coming Soon 🚧) | Coming Soon |
+
+---
+
+## Türkçe
+
 Basit bir Python oyunu. Kullanıcı bilgisayara karşı taş, kağıt, makas oynar.  
 Oyuncunun **3 canı vardır**. Kazandığında puan alır, kaybettiğinde can kaybeder.  
 Oyun, canlar bitene kadar devam eder.  
 
 ---
-
-## 🚀 Nasıl Çalıştırılır
-```bash
-python tr_tas_kagit_makas.py
-```
 
 | Hamle | Bilgisayarın Hamlesi | Sonuç           |
 | ----- | -------------------- | --------------- |
@@ -23,7 +29,7 @@ python tr_tas_kagit_makas.py
 
 ---
 
-##⭐ Özellikler
+### ⭐ Özellikler
 
 ► 🎯 3 can ile başlarsınız
 
@@ -33,13 +39,21 @@ python tr_tas_kagit_makas.py
 
 ► 📊 Oyun sonunda toplam skor gösterilir
 
+---
+
+### 🚀 Nasıl Çalıştırılır
+```bash
+python tr_tas_kagit_makas.py
+```
 
 ---
 
-##🌍 English (Coming Soon)
+## English 
 
 This section will include the English version of the game rules and instructions. 🚧
 Stay tuned for updates! ✨
+
+---
 
 | Move (Player) | Move (Computer) | Result  |
 | ------------- | --------------- | ------- |
@@ -51,6 +65,21 @@ Stay tuned for updates! ✨
 | Scissors      | Rock            | ❌ Lose  |
 | Same          | Same            | 🤝 Draw |
 
+---
+
+### ⭐ Features
+
+► 🎯 Start with 3 lives
+
+► 🤖 Computer makes random moves
+
+► 🏆 Each win gives +10 points
+
+► 📊 Final score is shown when all lives are gone
+
+---
+
+### 🚀 How to Run
 ```bash
 python tr_tas_kagit_makas.py
 ```
