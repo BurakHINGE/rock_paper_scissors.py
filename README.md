@@ -2,6 +2,11 @@
 
 ---
 
+![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+---
+
 | Dil (Language) | Bağlantı (Link) |
 |----------------|-----------------|
 | 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
