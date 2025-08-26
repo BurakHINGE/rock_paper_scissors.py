@@ -10,7 +10,7 @@
 | Dil (Language) | Bağlantı (Link) |
 |----------------|-----------------|
 | 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
-| 🇬🇧 English (Coming Soon 🚧) | Coming Soon |
+| 🇬🇧 English  | [English Version](eng_rock_paper_scissors.py)|
 
 ---
 
@@ -86,5 +86,5 @@ Stay tuned for updates! ✨
 
 ### 🚀 How to Run
 ```bash
-python tr_tas_kagit_makas.py
+python eng_tas_kagit_makas.py
 ```
