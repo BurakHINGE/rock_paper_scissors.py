@@ -55,8 +55,7 @@ python tr_tas_kagit_makas.py
 
 ## English 
 
-This section will include the English version of the game rules and instructions. 🚧
-Stay tuned for updates! ✨
+This section will include the English version of the game rules and instructions. ✨
 
 ---
 
