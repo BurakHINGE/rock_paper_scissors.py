@@ -36,11 +36,11 @@ Oyun, canlar bitene kadar devam eder.
 
 ### ⭐ Özellikler
 
-► 🎯 3 can ile başlarsınız
+► 🎯 3 can ile başlarsınız (İsterseniz kodun üstünde değiştirebilirsiniz.)
 
 ► 🤖 Bilgisayar rastgele hamle yapar
 
-► 🏆 Her kazanç +10 puan getirir
+► 🏆 Her kazanç +10 puan getirir (İsterseniz kodun üstünde değiştirebilirsiniz.)
 
 ► 📊 Oyun sonunda toplam skor gösterilir
 
@@ -73,11 +73,11 @@ This section will include the English version of the game rules and instructions
 
 ### ⭐ Features
 
-► 🎯 Start with 3 lives
+► 🎯 Start with 3 lives (You can change it at the top of the code if you want.)
 
 ► 🤖 Computer makes random moves
 
-► 🏆 Each win gives +10 points
+► 🏆 Each win gives +10 points (You can change it at the top of the code if you want.)
 
 ► 📊 Final score is shown when all lives are gone
 
