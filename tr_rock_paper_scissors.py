@@ -1,7 +1,7 @@
 while True:
 	import random
 
-	can = 3
+	can = 3  #Can miktarını istediğiniz gibi değiştirebilirsiniz.
 
 	puan = 0
 
@@ -20,7 +20,7 @@ while True:
 				print(f"Kaybettiniz, {can} canınız kaldı!")
 
 			else:
-				puan += 10
+				puan += 10 #İstiyorsanız bir kazanmada elde edilen puan miktarını değiştirebilirsiniz.
 				print(f"Kazandınız, toplamda {puan} puanınız var!")
 
 		elif hamle == "kağıt":
@@ -29,7 +29,7 @@ while True:
 				print(f"Kaybettiniz, {can} canınız kaldı!")
 
 			else:
-				puan += 10
+				puan += 10 #İstiyorsanız bir kazanmada elde edilen puan miktarını değiştirebilirsiniz.
 				print(f"Kazandınız, toplamda {puan} puanınız var!")
 
 
@@ -39,7 +39,7 @@ while True:
 				print(f"Kaybettiniz, {can} canınız kaldı!")
 
 			else:
-				puan += 10
+				puan += 10 #İstiyorsanız bir kazanmada elde edilen puan miktarını değiştirebilirsiniz.
 				print(f"Kazandınız, toplamda {puan} puanınız var!")	
 
 	print(f"Tebrikler, oyun sonu toplam {puan} puan kazandınız!")
