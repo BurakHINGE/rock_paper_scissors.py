@@ -1,7 +1,7 @@
 while True:
 	import random
 
-	can = 3  #Can miktarını istediğiniz gibi değiştirebilirsiniz.
+	can = 3  #İsterseniz can miktarını değiştirebilirsiniz.
 
 	puan = 0
 
