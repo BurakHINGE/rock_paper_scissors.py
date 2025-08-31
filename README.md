@@ -7,6 +7,13 @@
 
 ---
 
+## 📌 Sürüm Bilgisi / Version Info
+
+- **Sürüm (TR):** v1.0.0  
+- **Version (EN):** v1.0.0
+
+---
+
 | Dil (Language) | Bağlantı (Link) |
 |----------------|-----------------|
 | 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
