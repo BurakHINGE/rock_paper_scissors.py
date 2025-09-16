@@ -94,3 +94,12 @@ This section will include the English version of the game rules and instructions
 ```bash
 python eng_tas_kagit_makas.py
 ```
+
+---
+
+## Sürüm Geçmişi / Version History
+v1.1.0 (2025-08-26)  
+Kod dili olarak İngilizce desteği eklendi / Added English as the code language
+
+v1.0.0 (2025-08-23)  
+Taş-Kağıt-Makas oyunu oluşturuldu / Rock-Paper-Scissors game created 
