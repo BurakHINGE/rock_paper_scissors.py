@@ -103,3 +103,9 @@ Kod dili olarak İngilizce desteği eklendi / Added English as the code language
 
 v1.0.0 (2025-08-23)  
 Taş-Kağıt-Makas oyunu oluşturuldu / Rock-Paper-Scissors game created 
+
+---
+
+## Lisans / License
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakınız.  
+This project is licensed under the MIT License. See the LICENSE file for more information.
