@@ -9,8 +9,8 @@
 
 ## 📌 Sürüm Bilgisi / Version Info
 
-- **Sürüm (TR):** v1.0.0  
-- **Version (EN):** v1.0.0
+- **Sürüm (TR):** v1.1.0  
+- **Version (EN):** v1.1.0
 
 ---
 
