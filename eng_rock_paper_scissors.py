@@ -1,40 +1,36 @@
 import random
 
-while True:
+while True:  
+    start = input("\nPress ENTER to play Rock Paper Scissors (or type 'q' to quit): ").lower()
+    if start == "q":
+        print("Exit. See you next time!")
+        break 
+    
     lives = 3
     score = 0
-    moves = ["rock", "paper", "scissors"]
+    choices = ["rock", "paper", "scissors"]
 
     while lives != 0:
-        x = random.randint(0, 2)
-        computer_move = moves[x]
-        player_move = input("Rock, paper, scissors?\n")
+        player_move = input("Rock, Paper, or Scissors? ").lower()
         
+        if player_move not in choices:
+            print("Invalid move, try again!")
+            continue
+
+        computer_move = random.choice(choices)
+        print(f"Computer chose: {computer_move}")
+
         if computer_move == player_move:
-            print("It's a draw!")
+            print("It's a tie!")
 
-        elif player_move == "rock":
-            if computer_move == "paper":
-                lives -= 1
-                print(f"You lost, {lives} lives left!")
-            else:
-                score += 10
-                print(f"You won, your total score is {score}!")
+        elif (player_move == "rock" and computer_move == "scissors") or \
+             (player_move == "paper" and computer_move == "rock") or \
+             (player_move == "scissors" and computer_move == "paper"):
+            score += 10
+            print(f"You win! Total score: {score}")
 
-        elif player_move == "paper":
-            if computer_move == "scissors":
-                lives -= 1
-                print(f"You lost, {lives} lives left!")
-            else:
-                score += 10
-                print(f"You won, your total score is {score}!")
+        else:
+            lives -= 1
+            print(f"You lose! Remaining lives: {lives}")
 
-        elif player_move == "scissors":
-            if computer_move == "rock":
-                lives -= 1
-                print(f"You lost, {lives} lives left!")
-            else:
-                score += 10
-                print(f"You won, your total score is {score}!")    
-
-    print(f"Congratulations, you finished the game with a total of {score} points!")
+    print(f"Game over! Your total score: {score}")
