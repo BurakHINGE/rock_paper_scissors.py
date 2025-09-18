@@ -97,12 +97,13 @@ python eng_tas_kagit_makas.py
 
 ---
 
-## Sürüm Geçmişi / Version History
-v1.1.0 (2025-08-26)  
-Kod dili olarak İngilizce desteği eklendi / Added English as the code language
+## Version History / Changelog
 
-v1.0.0 (2025-08-23)  
-Taş-Kağıt-Makas oyunu oluşturuldu / Rock-Paper-Scissors game created 
+| Version | Date       | Açıklama / Description |
+|---------|------------|----------------------|
+| v1.2.0  | 2025-09-19 | Başlama ve çıkış seçenekleri eklendi / Start and quit have been added to game |
+| v1.1.0  | 2025-09-18 | İngilizce kod eklendi / English version of the code added |
+| v1.0.0  | 2025-09-18 | İlk sürüm oluşturuldu / Initial release |
 
 ---
 
