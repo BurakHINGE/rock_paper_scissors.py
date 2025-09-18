@@ -1,45 +1,36 @@
-while True:
-	import random
+import random
 
-	can = 3  #İsterseniz can miktarını değiştirebilirsiniz.
+while True:  
+    basla = input("\nTaş Kağıt Makas oynamak için ENTER'a basın (çıkmak için q): ").lower()
+    if basla == "q":
+        print("Çıkış yapıldı. Görüşürüz!")
+        break 
+    
+    can = 3
+    puan = 0
+    oyun = ["taş", "kağıt", "makas"]
 
-	puan = 0
+    while can != 0:
+        hamle = input("Taş, kağıt, makas? ").lower()
+        
+        if hamle not in oyun:
+            print("Geçersiz hamle, tekrar deneyin!")
+            continue
 
-	oyun = ["taş","kağıt","makas"]
+        BilgisayarHamlesi = random.choice(oyun)
+        print(f"Bilgisayar seçti: {BilgisayarHamlesi}")
 
-	while can != 0:
-		x = random.randint(0,2)
-		BilgisayarHamlesi = oyun[x]
-		hamle = input("Taş, kağıt, makas?\n")
-		if BilgisayarHamlesi == hamle:
-			print("Berabere")
+        if BilgisayarHamlesi == hamle:
+            print("Berabere!")
 
-		elif hamle == "taş":
-			if BilgisayarHamlesi == "kağıt":
-				can -= 1
-				print(f"Kaybettiniz, {can} canınız kaldı!")
+        elif (hamle == "taş" and BilgisayarHamlesi == "makas") or \
+             (hamle == "kağıt" and BilgisayarHamlesi == "taş") or \
+             (hamle == "makas" and BilgisayarHamlesi == "kağıt"):
+            puan += 10
+            print(f"Kazandınız! Toplam puanınız: {puan}")
 
-			else:
-				puan += 10 #İstiyorsanız bir kazanmada elde edilen puan miktarını değiştirebilirsiniz.
-				print(f"Kazandınız, toplamda {puan} puanınız var!")
+        else:
+            can -= 1
+            print(f"Kaybettiniz! Kalan canınız: {can}")
 
-		elif hamle == "kağıt":
-			if BilgisayarHamlesi == "makas":
-				can -= 1
-				print(f"Kaybettiniz, {can} canınız kaldı!")
-
-			else:
-				puan += 10 #İstiyorsanız bir kazanmada elde edilen puan miktarını değiştirebilirsiniz.
-				print(f"Kazandınız, toplamda {puan} puanınız var!")
-
-
-		elif hamle == "makas":
-			if BilgisayarHamlesi == "taş":
-				can -= 1
-				print(f"Kaybettiniz, {can} canınız kaldı!")
-
-			else:
-				puan += 10 #İstiyorsanız bir kazanmada elde edilen puan miktarını değiştirebilirsiniz.
-				print(f"Kazandınız, toplamda {puan} puanınız var!")	
-
-	print(f"Tebrikler, oyun sonu toplam {puan} puan kazandınız!")
+    print(f"Tebrikler, oyun bitti! Toplam {puan} puan kazandınız!")
