@@ -51,6 +51,10 @@ Oyun, canlar bitene kadar devam eder.
 
 ► 📊 Oyun sonunda toplam skor gösterilir
 
+► 💻​ Profil oluşturma 
+
+► 📊 Toplam istatiktikler gösterilir
+
 ---
 
 ### 🚀 Nasıl Çalıştırılır
@@ -87,6 +91,10 @@ This section will include the English version of the game rules and instructions
 ► 🏆 Each win gives +10 points (You can change it at the top of the code if you want.)
 
 ► 📊 Final score is shown when all lives are gone
+
+► 💻​ Create profile 
+
+► 📊 Total statics are displayed
 
 ---
 
