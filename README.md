@@ -97,7 +97,7 @@ python eng_tas_kagit_makas.py
 
 ---
 
-## Version History / Changelog
+## Sürüm Geçmişi | Version History
 
 | Version | Date       | Açıklama / Description |
 |---------|------------|----------------------|
