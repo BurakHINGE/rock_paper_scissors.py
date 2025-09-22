@@ -9,8 +9,8 @@
 
 ## 📌 Sürüm Bilgisi / Version Info
 
-- **Sürüm (TR):** v1.2.0  
-- **Version (EN):** v1.2.0
+- **Sürüm (TR):** v2.0.0  
+- **Version (EN):** v2.0.0
 
 ---
 
@@ -101,6 +101,7 @@ python eng_tas_kagit_makas.py
 
 | Version | Date       | Açıklama / Description |
 |---------|------------|----------------------|
+| v2.0.0  | 2025-09-22 | Profil oluşturma ve json ile istatistik tutma / Profile creation and statistics tracking with JSON |
 | v1.2.0  | 2025-09-19 | Başlama ve çıkış seçenekleri eklendi / Start and quit have been added to game |
 | v1.1.0  | 2025-09-18 | İngilizce kod eklendi / English version of the code added |
 | v1.0.0  | 2025-09-18 | İlk sürüm oluşturuldu / Initial release |
