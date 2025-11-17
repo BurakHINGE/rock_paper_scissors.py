@@ -16,8 +16,9 @@
 
 | Dil (Language) | Bağlantı (Link) |
 |----------------|-----------------|
-| 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
 | 🇬🇧 English  | [English Version](eng_rock_paper_scissors.py)|
+| 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
+
 
 ---
 
