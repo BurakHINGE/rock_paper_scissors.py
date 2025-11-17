@@ -21,6 +21,47 @@
 
 ---
 
+## English 
+
+This section will include the English version of the game rules and instructions. ✨
+
+---
+
+| Move (Player) | Move (Computer) | Result  |
+| ------------- | --------------- | ------- |
+| Rock          | Scissors        | ✅ Win   |
+| Rock          | Paper           | ❌ Lose  |
+| Paper         | Rock            | ✅ Win   |
+| Paper         | Scissors        | ❌ Lose  |
+| Scissors      | Paper           | ✅ Win   |
+| Scissors      | Rock            | ❌ Lose  |
+| Same          | Same            | 🤝 Draw |
+
+---
+
+### ⭐ Features
+
+► 🎯 Start with 3 lives (You can change it at the top of the code if you want.)
+
+► 🤖 Computer makes random moves
+
+► 🏆 Each win gives +10 points (You can change it at the top of the code if you want.)
+
+► 📊 Final score is shown when all lives are gone
+
+► 💻​ Create profile 
+
+► 📊 Total statics are displayed
+
+---
+
+### 🚀 How to Run
+```bash
+python eng_tas_kagit_makas.py
+```
+
+--- 
+
 ## Türkçe
 
 Basit bir Python oyunu. Kullanıcı bilgisayara karşı taş, kağıt, makas oynar.  
@@ -60,47 +101,6 @@ Oyun, canlar bitene kadar devam eder.
 ### 🚀 Nasıl Çalıştırılır
 ```bash
 python tr_tas_kagit_makas.py
-```
-
----
-
-## English 
-
-This section will include the English version of the game rules and instructions. ✨
-
----
-
-| Move (Player) | Move (Computer) | Result  |
-| ------------- | --------------- | ------- |
-| Rock          | Scissors        | ✅ Win   |
-| Rock          | Paper           | ❌ Lose  |
-| Paper         | Rock            | ✅ Win   |
-| Paper         | Scissors        | ❌ Lose  |
-| Scissors      | Paper           | ✅ Win   |
-| Scissors      | Rock            | ❌ Lose  |
-| Same          | Same            | 🤝 Draw |
-
----
-
-### ⭐ Features
-
-► 🎯 Start with 3 lives (You can change it at the top of the code if you want.)
-
-► 🤖 Computer makes random moves
-
-► 🏆 Each win gives +10 points (You can change it at the top of the code if you want.)
-
-► 📊 Final score is shown when all lives are gone
-
-► 💻​ Create profile 
-
-► 📊 Total statics are displayed
-
----
-
-### 🚀 How to Run
-```bash
-python eng_tas_kagit_makas.py
 ```
 
 ---
