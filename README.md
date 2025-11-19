@@ -1,4 +1,4 @@
-# 🎮 Taş Kağıt Makas | Rock Paper Scissors
+# 🎮 Rock Paper Scissors | Taş Kağıt Makas
 
 ---
 
@@ -7,14 +7,14 @@
 
 ---
 
-## 📌 Sürüm Bilgisi / Version Info
+## 📌 Version Info / Sürüm Bilgisi
 
-- **Sürüm (TR):** v2.0.0  
-- **Version (EN):** v2.0.0
+- **Version:** v2.0.0
+- **Sürüm:** v2.0.0  
 
 ---
 
-| Dil (Language) | Bağlantı (Link) |
+| Language / Dil | Link / Bağlantı |
 |----------------|-----------------|
 | 🇬🇧 English  | [English Version](eng_rock_paper_scissors.py)|
 | 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_rock_paper_scissors.py) |
@@ -108,16 +108,15 @@ python tr_tas_kagit_makas.py
 
 ## Sürüm Geçmişi | Version History
 
-| Version | Date       | Açıklama / Description |
+| Version / Sürüm | Date / Tarih | Description / Açıklama |
 |---------|------------|----------------------|
-| v2.0.0  | 2025-09-22 | Profil oluşturma ve json ile istatistik tutma / Profile creation and statistics tracking with JSON |
-| v1.2.0  | 2025-09-19 | Başlama ve çıkış seçenekleri eklendi / Start and quit have been added to game |
-| v1.1.0  | 2025-09-18 | İngilizce kod eklendi / English version of the code added |
-| v1.0.0  | 2025-09-18 | İlk sürüm oluşturuldu / Initial release |
+| v2.0.0  | 2025-09-22 | Profile creation and statistics tracking with JSON / Profil oluşturma ve json ile istatistik tutma |
+| v1.2.0  | 2025-09-19 | Start and quit have been added to game / Başlama ve çıkış seçenekleri eklendi |
+| v1.1.0  | 2025-09-18 | English version of the code added / İngilizce kod eklendi |
+| v1.0.0  | 2025-09-18 | Initial release / İlk sürüm oluşturuldu |
 
 ---
 
-## Lisans / License
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız.  
+## License / Lisans
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız. 
